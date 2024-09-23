@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Age in Seconds</title>
+</head>
+<body>
+    <h1>Calculate Your Age in Seconds</h1>
+    <input type="date" id="birthdate" />
+    <input type="time" id="birthtime" />
+    <button onclick="startCalculation()">Start</button>
+    <div id="output"></div>
+    <div id="additional-info" class="additional-info">
+        <span id="minutes" class="minutes"></span>
+        <span id="days" class="days"></span>
+        <span id="weeks" class="weeks"></span>
+        <span id="years" class="years"></span>
+        <span id="decades" class="decades"></span>
+    </div>
+    <div class="progress-container" id="progress-container">
+        <div class="progress-block">
+            <div class="line"></div>
+            <div class="progress-fill" id="block1"></div>
+        </div>
+        <div class="progress-block">
+            <div class="line"></div>
+            <div class="progress-fill" id="block2"></div>
+        </div>
+        <div class="progress-block">
+            <div class="line"></div>
+            <div class="progress-fill" id="block3"></div>
+        </div>
+        <div class="progress-block">
+            <div class="line"></div>
+            <div class="progress-fill" id="block4"></div>
+        </div>
+        <div class="progress-block">
+            <div class="line"></div>
+            <div class="progress-fill" id="block5"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
